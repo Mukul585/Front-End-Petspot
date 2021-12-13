@@ -3,7 +3,7 @@ body{
 }
 
 #title{
-  background-color: #DD4A48;
+  background-color: #ae6427;
   color: #fff;
 }
 
@@ -23,7 +23,7 @@ h1 {
 
 a, h3, p{
 margin-bottom: -2%;
-  color: #DD4A48;
+  color: #ae6427;
 }
 
 a:hover {
@@ -37,6 +37,10 @@ h1 {text-align: center;}
 
 /* navigation bar */
 
+.navbar {
+  padding: 0 0 4.5rem;
+  text-align: right;
+}
 .navbar-brand {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
@@ -49,7 +53,7 @@ h1 {text-align: center;}
  }
 
 .navbar {
-  	background-color: #DD4A48;
+  	background-color: #ae6427;
     padding-bottom: 3%;
 }
 
@@ -59,6 +63,8 @@ h1 {text-align: center;}
 
 .nav-link a {
   color: white;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
 }
 
 .nav-link {
@@ -133,11 +139,11 @@ h1 {text-align: center;}
 }
 
 #features p {
-  color: #DD4A48;
+  color: #ae6427;
 }
 
 #features h3 {
-  color: #DD4A48;
+  color: #ae6427;
   padding: 3% 0 1% 0;
   font-family: 'Ubuntu';
   font-size: 1.4rem;
@@ -155,7 +161,7 @@ h1 {text-align: center;}
 }
 
 .icon-lg{
-  color: #DD4A48;
+  color: #ae6427;
   margin-bottom: 3%;
 }
 
@@ -169,7 +175,7 @@ h1 {text-align: center;}
 .testimonials {
 	transition: background-color 3s;
   text-align: center;
-  background-color: #DD4A48;
+  background-color: #ae6427;
   color: #e7fbfb;
 }
 
@@ -195,39 +201,16 @@ h1 {text-align: center;}
     padding: 7% 15%;
 }
 
-/* pricing */
-
-#pricing {
-  padding: 3% 10%;
-  padding-bottom: 0;
-  text-align: center;
-}
-
-.price-item {
-  margin-bottom: 4%;
-}
-
-#pricing-text{
-  text-align: center;
-  color: white;
-  background-color: #DD4A48;
-  padding: 3% 15% 2%;
-  width: 100%;
-}
-
-#pricing-text h3, p {
-  color: white;
-}
 
 .card {
-  background-color: #DD4A48;
+  background-color: #ae6427;
   color: white;
   border: none;
 }
 
 .card-header {
   background-color: #e7fbfb;
-  color: #40bfc1;
+  color: #ae6427;
   padding-top: 5%;
   border: none;
 }
@@ -241,12 +224,12 @@ h1 {text-align: center;}
     transition: background-color 3s;
     transition: color 3s;
     background-color: #e7fbfb;
-    color: #DD4A48;
+    color: #ae6427;
     text-decoration: none;
 }
 
 .re-btn {
-  background-color: #DD4A48;
+  background-color: #ae6427;
   color: white;
   transition: color 3s;
   transition: background-color 3s;
@@ -254,13 +237,13 @@ h1 {text-align: center;}
 
 .re-btn:hover {
   background-color: white;
-  color: #DD4A48;
+  color: #ae6427;
 }
 
 #cta{
   text-align: center;
   padding: 5% 15%;
-  background-color: #DD4A48;
+  background-color: #ae6427;
 }
 
 #cta-text{
@@ -279,13 +262,13 @@ h1 {text-align: center;}
   font-family: 'Ubuntu';
   font-size: 1rem;
   background-color: white;
-  color: #DD4A48;
+  color: #ae6427;
   padding-top: 2%;
   padding-bottom: 2%;
   text-align: center;
 }
 
-#footer p{color: #DD4A48; margin-top: 1%;}
+#footer p{color: #ae6427; margin-top: 1%;}
 
 .back-to-top{
   text-align: center;
@@ -293,7 +276,7 @@ h1 {text-align: center;}
   border-radius: 50%;
   color: white;
   color: white;
-  background-color: #DD4A48;
+  background-color: #ae6427;
   position: fixed;
   z-index: 20;
   left: 2%;
@@ -320,7 +303,7 @@ h1 {text-align: center;}
 
 /* The colour of the indicators */
 .blog .carousel-indicators li {
-    background: #DD4A48;
+    background: #ae6427;
     border-radius: 100%;
     width: 22px;
     height: 6px;
@@ -334,13 +317,13 @@ background: #707070;
 
 /* pets seection */
 #pet-text{
-  color: #DD4A48;
+  color: #ae6427;
   text-align: center;
   margin: 3% 0 2%;
 }
 
 #pet-text h3, p {
-  color: #DD4A48;
+  color: #ae6427;
   margin: 3% 0;
 }
 
@@ -354,10 +337,11 @@ background: #707070;
     margin: 2% auto;
 }
 
-@media (max-width: 800px) {
-.{
-  padding: 0 25l
-}
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
 }
 
 .row-link a{
@@ -366,7 +350,7 @@ background: #707070;
 }
 
 col-md-4 p {
-  color: #DD4A48;
+  color: #ae6427;
 }
 
 .col-md-4 {
@@ -394,7 +378,7 @@ col-md-4 p {
 /* modal-button */
 
 .modal-button{
-  background-color: #DD4A48;
+  background-color: #ae6427;
   border-radius: 50%;
   color: white;
   padding: 1.5% 1.5%;
@@ -406,7 +390,7 @@ col-md-4 p {
 
 .open-button{
     color: white;
-    background-color: #DD4A48;
+    background-color: #ae6427;
 }
 
 .modal-content{
@@ -416,7 +400,7 @@ col-md-4 p {
 
 .text-feild{
   color: white;
-  background-color: #DD4A48;
+  background-color: #ae6427;
   padding: 2%;
   border: none;
   border-radius: 4px;
